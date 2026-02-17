@@ -1,0 +1,54 @@
+# AI-Assisted Devlopement Log
+# Recipe Finder SPA - CSCI 571 Asignment 1
+# Student Name: Khang Thai
+# Date: 02-16-2026
+
+================================================================================
+SESSION 1: Initial Setup and Search Form With Basic Styling
+================================================================================
+
+Prompt 1:
+"Help me create an HTML form with a text input and search button for searching 
+recipes. I want it to look clean and modern. Please separate HTML in one file 
+and CSS in another file. I would like to have a title and subtitle at the top 
+center as well as the search bar and button."
+
+AI RESPONSE SUMMARY:
+- Created basic HTML structure with form, input and button
+- Very basic CSS was created with a default color, size, and font
+
+WHAT I LEARNED:
+- The fundamental of using HTML and CSS
+- Specific functions in CSS that changes the way things looks with HTML
+
+ISSUE ENCOUNTED:
+- Many of the CSS code are very generic and very straight forward. It initailly
+does not look clean.
+- Sizing and color are off and very basic looking
+
+HOW I FIXED IT:
+- Changed colors to preference.
+- Changed sizing and font to make it look clean. Used trial and error for the
+right sizing.
+
+--------------------------------------------------------------------------------
+
+PROMPT 2:
+"How do I call TheMealDB API using JavaScript fetch and display the results?"
+
+AI RESPONSE SUMMARY:
+- Added results container to HTML file
+- Created a JavaScript file calling TheMealDB API.
+- Added styles for the results in the CSS file
+
+WHAT I LEARNED:
+
+
+ISSUE ENCOUNTERED:
+
+
+HOW I FIXED IT:
+
+================================================================================
+SESSION 2: 
+================================================================================
