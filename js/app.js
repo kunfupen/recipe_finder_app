@@ -31,8 +31,7 @@ function displayMeals(meals) {
         <div class="meal-card">
             <img src="${meal.strMealThumb}" alt="${meal.strMeal}">
             <h3>${meal.strMeal}</h3>
-            <p><strong>Category:</strong> ${meal.strCategory}</p>
-            <p><strong>Area:</strong> ${meal.strArea}</p>
+            <p><strong>${meal.strCategory}</p>
             <a href="${meal.strSource || '#'}" target="_blank">View Recipe</a>
         </div>
     `).join('');
