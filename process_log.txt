@@ -67,9 +67,43 @@ the search bar. I also want to see a no result message underneath the search
 the search result when there are no matches."
 
 AI RESPONSE SUMMARY:
-- Added error messages in JS file
-- Included 
+- Added error messages in JS using classList to toggle a hidden class
+- Empty input shows a red message below the search bar
+- Invalid search shows a message in the search area
+
+WHAT I LEARNED:
+- How to use classList to show and hide certian elements
+- The different kinds of error messages in the form and inside the result
+container
+
+ISSUE ENCOUNTERED:
+- The red error message was not appearing when clicking search with text in
+the input field
+- The hidden class was conflicting with inline style="display: none;"
+
+HOW I FIXED IT:
+- Removed inline style="display: none;" and used a .hidden clas in CSS
 
 ================================================================================
-SESSION 2: 
+SESSION 2: Meal Cards Layout and Detail View
 ================================================================================
+
+PROMPT 5:
+"I would like the results of each food card to be in rows of three."
+
+AI RESPONSE SUMMARY:
+- Added CSS grid layout with grid-template-columns: repeat(3, 1fr) to the
+results container
+- Increased container max-width to fit three cards
+
+WHAT I LEARNED:
+- How CSS grid works with grid-template-columns and repeat()
+
+--------------------------------------------------------------------------------
+
+PROMPT 6:
+"I want to match a specific design with a purple gradient background, white card
+container, and purple search button."
+
+AI RESPONSE SUMMARY:
+-
