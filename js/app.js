@@ -69,6 +69,8 @@ async function fetchMealDetails(id) {
 }
 
 function displayMealDetails(meal) {
+    resultsHeading.style.display = 'none';
+    
     const ingredients = [];
     for (let i = 1; i <= 20; i++) {
         const ingredient = meal[`strIngredient${i}`];
