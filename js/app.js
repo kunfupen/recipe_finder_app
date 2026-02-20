@@ -115,6 +115,7 @@ function displayMealDetails(meal) {
     `;
 
     document.querySelector('.back-button').addEventListener('click', () => {
+        resultsHeading.style.display = 'block';
         searchForm.dispatchEvent(new Event('submit'));
     });
 }

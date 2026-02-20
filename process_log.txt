@@ -106,4 +106,63 @@ PROMPT 6:
 container, and purple search button."
 
 AI RESPONSE SUMMARY:
+- Updated body background to a purple gradient
+- Styled the container as a white rounded card with box shadow
+- Checked search button to match purple theme
+
+WHAT I LEARNED:
+- How to use CSS linear-gradient for backgrounds
+- How to create a card-like container with border-radius and bow-shadow
+
+ISSUE ENCOUNTED:
+- The container was too narrow for three cards to display properly
+
+HOW I FIXED IT:
+- Increased max-width to give cards enough room
+
+--------------------------------------------------------------------------------
+
+PROMPT 7:
+"I want to be able to click anywhere on the food card to access the food I want."
+
+AI RESPONSE SUMMARY:
+- Added data-id attribute to each meal card storing the meal ID
+- Added click event listeners to each card that the called 
+- Created function to call the lookup API endpoint
+- Created function to show full recipe with ingredients and instruction
+- Added back button to return to search results
+
+WHAT I LEARNED:
+- How to use data attributes to store information on HTML elements
+- How to use API lookup endpoint to get full meal details by ID
+- How to loop through strIngredient1-20 and strMeasure1-20
+
+ISSUE ENCOUNTED:
+- The fetchMealDetails function had a typo where it exited the function before
+the function was ever called
+- The back button ussed getElementById('back-button') but the button only had
+a class, not an ID
+
+HOW I FIXED IT:
+- Changed the function to const meal = data.meal[0]
+- Changed getElementById to querySelector('.back-button')
+
+--------------------------------------------------------------------------------
+
+PROMPT 8:
+
+
+
+
+================================================================================
+REFLECTION
+================================================================================
+
+Most useful AI assistance:
 -
+
+What I would do differently:
+-
+
+Time spent: ~12 hours
+AI tool used: Claude
