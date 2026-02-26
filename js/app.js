@@ -15,7 +15,12 @@ searchForm.addEventListener('submit', async (e) => {
     }
 
     errorMessage.classList.add('hidden');
-    resultsContainer.innerHTML = '<p class="loading">Searching...</p>';
+    resultsContainer.innerHTML = `
+        <div class="loading">
+            <div class="spinner"></div>
+            <p class="loading-text">Searching for recipes...</p>
+        </div>
+    `;
 
     try {
         const response = await fetch(
@@ -55,6 +60,14 @@ function displayMeals(meals) {
 }
 
 async function fetchMealDetails(id) {
+    resultsHeading.style.display = 'none';
+    resultsContainer.innerHTML = `
+        <div class="loading">
+            <div class="spinner"></div>
+            <p class="loading-text">Loading meal details...</p>
+        </div>
+    `;
+
     try {
         const response = await fetch(
             `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`

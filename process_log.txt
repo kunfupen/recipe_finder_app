@@ -150,19 +150,69 @@ HOW I FIXED IT:
 --------------------------------------------------------------------------------
 
 PROMPT 8:
+"I want the picture of the meal to be on the left side of the page, the
+ingredients on the right side with rows and columns neatly, and the instruction
+underneath the ingredients and the YouTube badge underneath the instruction."
 
+AI RESPONSE SUMMARY:
+- Used flexobox layout to place the meal image on the left and info on the right
+- Placed instructions below ingredients on the right side
+- Added a red YouTube button below ingredients
 
+WHAT I LEARNED:
+- How to use flexbox with flex-shrink to keep the image a fixed width
+- How to combine flexbox for the two-column layout with CSS grid for the 
+ingredients list
 
+--------------------------------------------------------------------------------
+
+PROMPT 9:
+"How can I add a loading spinner while waiting for API response?"
+
+AI RESPONSE SUMMARY:
+- Created a CSS spinner using border and border-top with a rotate animation
+- Added the spinner HTML to the search loading and the meal detail Loading
+- Display "Searching for recipes..." when searching underneath the spinner
+
+WHAT I LEARNED:
+- How to create a loading spinner using CSS with @keyframes animation
+- How to show loading states in different parts of the app
+
+--------------------------------------------------------------------------------
+
+PROMPT 10:
+"Help me fix the card and meal content so that the page does not overflow when
+it is minimized."
+
+AI RESPONSE SUMMARY:
+- Changed image width from fidxed pixels to percentage with max-width
+- Added responsive breakpoints and overflow-wrap to prevent text overflow
+- Added min-width to allow shrinking
+
+WHAT I LEARNED:
+- How 0 is needed in min-width to allow shrinking
+- How auot-fill and minmax() create responsive grids without meida queries
+
+ISSUE ENCOUNTED:
+- Cards were still getting cut off on the lides at small screen sizes
+
+HOW I FIXED IT:
+- Reduced body and container padding at smaller breakpoints
+- Changed search input from fiex with to flex: 1 with max-width
 
 ================================================================================
 REFLECTION
 ================================================================================
 
 Most useful AI assistance:
--
+- Debugging
+- Understanding a certain term or function better
+- How certain things can be done in a certain way
 
 What I would do differently:
--
+- I would plan the layout and structure of the detail page before coding it.
+- I would try to understand the API documentation a little bit better before
+starting so I would know what each of the fields do.
 
-Time spent: ~12 hours
+Time spent: ~15 hours
 AI tool used: Claude
