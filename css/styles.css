@@ -182,7 +182,7 @@ h1 {
     grid-column: 1 / -1;
     text-align: center;
     color: gray;
-    font-size: 1.1rm;
+    font-size: 1.1rem;
     padding: 2rem;
     width: 100%;
 }
@@ -302,8 +302,8 @@ h1 {
     border-bottom: 1px solid #ddd;
 }
 
-.ingredient-list li:last-child,
-.ingredient-list li:nth-last-child(2):nth-child(odd) {
+.ingredients-list li:last-child,
+.ingredients-list li:nth-last-child(2):nth-child(odd) {
     border-bottom: none;
 }
 
@@ -317,7 +317,7 @@ h1 {
     color: #333;
 }
 
-.instruction {
+.instructions {
     margin-bottom: 20px;
 }
 
