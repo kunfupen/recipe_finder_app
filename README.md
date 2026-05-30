@@ -21,8 +21,6 @@ Live app: https://recipe-571-46869654728.us-central1.run.app/
 │   └── styles.css
 ├── js/
 │   └── app.js
-├── docs/
-│   └── process_log.txt
 ├── Dockerfile
 ├── nginx.conf
 └── README.md
@@ -53,7 +51,3 @@ Then open:
 ```text
 http://localhost:8080
 ```
-
-## Development Notes
-
-The AI-assisted development log is available in [docs/process_log.txt](docs/process_log.txt).
